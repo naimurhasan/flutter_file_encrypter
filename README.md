@@ -11,6 +11,20 @@ Because he deleted the project, I am creating this null safety repo.
 
 **Supports Android Only for now.** Will be working for iOS soon (Contribution is will appreciated).
 
+# Install
+```
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_svg: ^0.22.0
+  ....
+  file_encrypter:
+    git:
+      url: https://github.com/naimurhasan/flutter_file_encrypter.git
+      ref: main # branch name
+```
+
+
 # Usage
 For Encryption:
 ```dart
